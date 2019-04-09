@@ -2,6 +2,8 @@
 
 int main ()
 {
-	printf("Hello !");
+	char s[10];
+	scanf("%s",&s);
+	printf("Hello %s !",s);
 	return 0;
 }
